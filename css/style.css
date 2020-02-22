@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab' ;
+}
+
+/* header start */
+/* header{
+    padding-bottom: 50px;
+} */
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color:  rgba(174, 207, 226, 0.761);
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-left: 70px;  
+}
+.logo h1{
+    font-size: 45px;
+    font-family: Titan One ;
+    color: rgba(10, 155, 240, 0.761); 
+}
+.logo a{
+    text-decoration: none;
+}
+.menu{
+    width: 75%;
+    float: right;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size:18px;
+    color:rgb(58, 55, 55);
+    transition: .5s;
+}
+.menu ul li:last-chaild a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: white;
+    background-image: linear-gradient(45deg, cyan, blue);
+    border-radius: 10px ;
+    padding:15px 30px;
+}
+/* header end */
+
+/* content & image start */
+section{
+    padding-bottom: 50px;
+}
+.container2{
+    background-image:url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.content{
+    width:40%;
+    float: left;
+    margin-left:8% ;
+    padding-left: 2%;
+    margin-top: 50px;   
+}
+.content h1{
+    font-size: 35px;
+    color:rgb(70, 70, 70);
+}
+.content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(80, 115, 161);
+}
+h4{
+    font-size: 20px;
+    color:blueviolet;
+}
+.content p{
+    font-size: 20px;
+}
+.btn{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5%;
+}
+.content a:hover{
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(45deg, cyan, blue);
+    border-radius: 10%;
+}
+
+.content img{
+    width:100%;
+}
+/* content & image end */
+/* biography start */
+.biography{
+    background-image: url(../img/BANNER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+/* biography end */
+/* experience :start */
+.experience{
+    background-image:url(../img/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 350px;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+}
+.custom {
+    text-align: center;
+    font-size: 30px;
+}
+/* experience :end */
+/* latest work start */
+.latest{
+    margin-top: 50px;
+}
+.my-work{
+    display: flex;
+}
+.work1{
+    width:25%;
+    margin-left:5% ;
+    padding-left: 2%;
+    margin-top: 50px;
+  
+}
+.work1 img{
+    width:100%;
+}
+/* letest work end */
+/* address start */
+.address{
+    background-image: url(../img/BANNER.png);
+    background-repeat: no-repeat;
+}
+.tag-line{
+    text-align: center;
+}
+.color-mail{
+    text-align: center;
+    /* border:  10px solid; */
+    background-color: rgb(255, 0, 119);
+    padding: 10px;
+    margin: 50px;
+    color: white;
+}
+/* address end */
+footer{
+    background-color:   rgba(174, 207, 226, 0.761);
+	padding: 10px 0;
+    text-align: center;
+    color:rgb(58, 55, 55);
+}
+
+
